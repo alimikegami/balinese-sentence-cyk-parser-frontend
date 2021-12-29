@@ -1,13 +1,13 @@
 import React from 'react';
-import { Heading, Text } from '@chakra-ui/react'
+import { Box, Heading, Text } from '@chakra-ui/react'
 function Title(){
     return (
-        <div>
-            <Heading>Balinese CFG With CYK Algorithm</Heading>
+        <Box align="center" justify="center">
+            <Heading>Balinese Sentence CFG With CYK Algorithm</Heading>
             <Text fontSize='xl' marginTop="5">
-                Courtesy of group 3
+                Courtesy of Group 3
             </Text>
-        </div>
+        </Box>
     );
 }
 

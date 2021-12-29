@@ -6,7 +6,7 @@ import { Box } from "@chakra-ui/react"
 
 function App() {
     return (
-        <Box align="center" justify="center" marginTop="20">
+        <Box marginTop="20">
             <Title />
             <SearchBar />
         </Box>
